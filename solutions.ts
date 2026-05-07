@@ -51,4 +51,3 @@ class Student extends Person {
 function getIntersection(firstArray: number[], secondArray: number[]): number[] {
   return firstArray.filter((number) => secondArray.includes(number));
 }
-
